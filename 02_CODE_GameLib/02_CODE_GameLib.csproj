@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>CODE_GameLib</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+<ItemGroup>
+     <Reference Include="CODE_TempleOfDoom_DownloadableContent">
+       <HintPath>..\CODE_TempleOfDoom_DownloadableContent.dll</HintPath>
+     </Reference>
+</ItemGroup>
+
+</Project>

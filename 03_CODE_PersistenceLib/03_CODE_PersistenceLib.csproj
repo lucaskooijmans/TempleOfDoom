@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>CODE_PersistenceLib</RootNamespace>
+  </PropertyGroup>
+
+<ItemGroup>
+     <ProjectReference Include="..\02_CODE_GameLib\02_CODE_GameLib.csproj" />
+   </ItemGroup>
+
+</Project>

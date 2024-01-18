@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01_CODE_Frontend\01_CODE_Frontend.csproj" />
+    <ProjectReference Include="..\02_CODE_GameLib\02_CODE_GameLib.csproj" />
+    <ProjectReference Include="..\03_CODE_PersistenceLib\03_CODE_PersistenceLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+<ItemGroup>
+     <Reference Include="CODE_TempleOfDoom_DownloadableContent">
+       <HintPath>..\CODE_TempleOfDoom_DownloadableContent.dll</HintPath>
+     </Reference>
+   </ItemGroup>
+
+</Project>

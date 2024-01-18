@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>CODE_Frontend</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\02_CODE_GameLib\02_CODE_GameLib.csproj" />
+    <ProjectReference Include="..\03_CODE_PersistenceLib\03_CODE_PersistenceLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Levels\TempleOfDoom1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Levels\TempleOfDoom2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Pastel" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>
